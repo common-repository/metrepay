@@ -1,0 +1,23 @@
+.payment_box.payment_method_metrepay_gateway {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment_box.payment_method_metrepay_gateway .description-container {
+    display: flex;
+    align-items: center; /* Alinea la imagen y el texto verticalmente */
+    gap: 10px;
+}
+
+.payment_box.payment_method_metrepay_gateway img {
+    height: 1em;
+    width: auto;
+    object-fit: contain;
+}
+
+#metrepayselector {
+    display: flex;
+    flex-direction: column; /* Coloca los radio buttons uno debajo del otro */
+    gap: 5px; /* Espacio entre los radio buttons */
+}
